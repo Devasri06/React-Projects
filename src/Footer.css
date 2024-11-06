@@ -1,0 +1,33 @@
+.footer {
+    background-color: #282c34; /* Dark background color */
+    color: white;             /* White text color */
+    padding: 20px 0;         /* Padding for top and bottom */
+    text-align: center;       /* Center align text */
+    position: relative;       /* Relative positioning for layout */
+    bottom: 0;                /* Stick to the bottom of the page */
+    width: 100%;              /* Full width */
+  }
+  
+  .footer p {
+    margin: 0;                /* Remove default margin */
+  }
+  
+  .footer ul {
+    list-style-type: none;    /* Remove bullet points */
+    margin: 10px 0;           /* Margin for spacing */
+    padding: 0;               /* Remove default padding */
+  }
+  
+  .footer ul li {
+    display: inline;          /* Display list items inline */
+    margin: 0 10px;           /* Space between items */
+  }
+  
+  .footer ul li a {
+    color: white;             /* White link color */
+    text-decoration: none;    /* Remove underline from links */
+  }
+  
+  .footer ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
